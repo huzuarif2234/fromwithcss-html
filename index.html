@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form using Html and css</title>
+	<link rel="stylesheet" type="text/css" href="formcss.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="form/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="form/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="form/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+	<div class="form">
+
+
+		<form class="survey-form" >
+
+			<h1>Survey form</h1>
+            <p>This survey form is use for Employee</p>
+
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name" required> 
+
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Enter E-mail" required> 
+
+
+            <label for="Wexperience">Work Experience :</label>
+            <input type="text" name="Wexperience" id="Wexperience" placeholder="Enter Your Experience in number" required> 
+
+            <label for="investigate">Are you available for onsite job:</label>
+            <select id="investigate" name="investigate" required>
+            	<option value="yes"> yes </option>
+            	<option value="no"> no </option>
+            </select> 
+
+
+            <label for="suggestion">Give suggestion to our company</label>
+            <textarea id="suggestion" name="suggestion" placeholder="optional">
+            </textarea> 
+
+
+            <label>Suggest me the prefer interview mode</label>
+            <div class="radio-group">
+            <label><input type="radio" name="interview" value="onsite">onsite</label>
+            <label><input type="radio" name="interview" value="online">online</label>
+            </div>
+
+
+           <button type="submit" id=btn >Submit</button>
+			
+
+
+
+		</form>	
+
+
+	</div>
+
+
+
+
+</body>
+</html>
